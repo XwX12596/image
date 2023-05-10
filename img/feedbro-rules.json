@@ -1,0 +1,84 @@
+[
+    {
+        "id": "1682591432280",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": true,
+        "name": "bili-live-message",
+        "trigger": "1",
+        "contexttype": "2",
+        "contextvalue": [
+            "13"
+        ],
+        "match": "1",
+        "conditions": [],
+        "actions": [
+            {
+                "type": "6",
+                "value": "waterdrop.wav"
+            }
+        ],
+        "contextvaluetext": [
+            "BiLi-Live"
+        ]
+    },
+    {
+        "id": "1682591477555",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": true,
+        "name": "2023春-message",
+        "trigger": "1",
+        "contexttype": "2",
+        "contextvalue": [
+            "1"
+        ],
+        "match": "1",
+        "conditions": [],
+        "actions": [
+            {
+                "type": "1",
+                "value": ""
+            }
+        ],
+        "contextvaluetext": [
+            "2023春"
+        ]
+    },
+    {
+        "id": "1682917134845",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": false,
+        "name": "F1全规则",
+        "trigger": "1",
+        "contexttype": "3",
+        "contextvalue": [
+            "71"
+        ],
+        "match": "1",
+        "conditions": [
+            {
+                "target": "3",
+                "mode": "3",
+                "value": "Formula1",
+                "casemode": "2"
+            },
+            {
+                "target": "3",
+                "mode": "3",
+                "value": "Formula 1",
+                "casemode": "2"
+            }
+        ],
+        "actions": [
+            {
+                "type": "3",
+                "value": ""
+            }
+        ],
+        "contextvaluetext": [
+            "http://xwxstudio.com:1200/bilibili/user/dynamic/72647293"
+        ]
+    }
+]
